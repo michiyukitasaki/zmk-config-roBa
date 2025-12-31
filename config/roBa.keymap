@@ -253,10 +253,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans           &trans       &kp LS(LA(F))             &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LS(LC(LG(NUMBER_4)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans           &kp LG(W)    &trans                    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                          &trans
+&kp LC(LA(LG(Q)))  &kp LA(LC(LG(W)))  &kp LA(LC(LG(E)))  &kp LA(LC(LG(R)))  &kp LA(LC(LG(T)))                      &trans  &trans           &trans       &kp LS(LA(F))             &trans
+&kp LA(LC(LG(A)))  &kp LA(LC(LG(S)))  &kp LA(LC(LG(D)))  &kp LA(LC(LG(F)))  &kp LA(LC(LG(G)))  &trans      &trans  &trans  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LS(LC(LG(NUMBER_4)))  &trans
+&kp LA(LC(LG(Z)))  &kp LA(LC(LG(X)))  &kp LA(LC(LG(C)))  &kp LA(LC(LG(V)))  &kp LA(LC(LG(B)))  &trans      &trans  &trans  &trans           &kp LG(W)    &trans                    &trans
+&trans             &trans             &trans             &trans             &trans             &trans      &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
@@ -264,9 +264,9 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans          &trans          &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &bt BT_CLR      &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    
+&trans  &trans  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans          &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                    &trans
             >;
         };
