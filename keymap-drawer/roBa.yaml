@@ -133,21 +133,21 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ^⌥⌘Q
+  - ⌥^⌘W
+  - ⌥^⌘E
+  - ⌥^⌘R
+  - ⌥^⌘T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⇧⌥F
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⌥^⌘A
+  - ⌥^⌘S
+  - ⌥^⌘D
+  - ⌥^⌘F
+  - ⌥^⌘G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,11 +155,11 @@ layers:
   - ^⇥
   - ⇧^⌘4
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⌥^⌘Z
+  - ⌥^⌘X
+  - ⌥^⌘C
+  - ⌥^⌘V
+  - ⌥^⌘B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
