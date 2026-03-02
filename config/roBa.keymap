@@ -273,10 +273,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PERCENT                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp MINUS  &trans
+&kp UNDERSCORE   &kp SLASH          &kp AT    &trans    &trans       &trans      &trans  &trans                &trans                 &trans     &trans     &trans
+&trans           &trans             &trans    &trans    &trans       &trans      &trans  &trans                &trans                 &trans     &trans     &trans
+&trans           &trans             &trans    &trans    &trans       &trans      &trans  &trans                                                             &trans
             >;
         };
 
