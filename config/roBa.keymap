@@ -288,5 +288,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
+
+
+        layer_7 {
+            bindings = <
+&mt LEFT_CTRL Q  &kp L         &kp U      &kp COMMA  &kp DOT                                                        &kp F  &kp W  &kp R  &kp Y  &kp P
+&mt LEFT_ALT E   &kp A         &kp O      &kp MINUS  &trans   &trans       &kp ESCAPE  &kp K  &kp T  &kp N  &kp S  &lt 1 H
+&mt LEFT_GUI Z   &kp C         &kp V      &kp SLASH  &kp TAB  &trans       &trans      &kp G  &kp D  &kp M  &kp J  &lt 2 B
+&kp LCTRL        &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+            >;
+        };
     };
 };

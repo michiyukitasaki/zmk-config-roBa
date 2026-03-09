@@ -308,6 +308,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  layer_7:
+  - {t: Q, h: LCTRL}
+  - L
+  - U
+  - ','
+  - .
+  - F
+  - W
+  - R
+  - Y
+  - P
+  - {t: E, h: LALT}
+  - A
+  - O
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - K
+  - T
+  - N
+  - S
+  - {t: H, h: '1'}
+  - {t: Z, h: LGUI}
+  - C
+  - V
+  - /
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - G
+  - D
+  - M
+  - J
+  - {t: B, h: '2'}
+  - LCTRL
+  - LEFT WIN
+  - LEFT ALT
+  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
+  - {t: SPACE, h: NUM}
+  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - BACKSPACE
+  - {t: ENTER, h: FUNCTION}
+  - DEL
 combos:
 - p: [5, 17]
   k: ''''
