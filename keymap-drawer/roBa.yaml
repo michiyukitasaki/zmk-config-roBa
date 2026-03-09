@@ -43,7 +43,7 @@ layers:
   - {t: ⇥, h: ⇧}
   - ⌫
   - {t: ↵, h: '2'}
-  - {t: ., h: ⇧⌘}
+  - to 7
   '1':
   - {t: ▽, type: trans}
   - '7'
@@ -309,49 +309,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '7':
-  - {t: Q, h: LEFT CTRL}
+  - Q
   - L
   - U
-  - ','
+  - '-'
   - .
   - F
   - W
   - R
   - Y
   - P
-  - {t: E, h: ⌥}
+  - E
+  - I
   - A
   - O
-  - '-'
+  - ','
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESCAPE
   - K
   - T
   - N
   - S
-  - {t: H, h: '1'}
-  - {t: Z, h: LEFT GUI}
+  - H
+  - ⇧
+  - Z
+  - X
   - C
   - V
-  - /
-  - ⇥
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - G
   - D
   - M
   - J
-  - {t: B, h: '2'}
-  - ^
-  - LEFT WIN
-  - ⌥
-  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
-  - {t: ␣, h: '2'}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: '3'}
-  - ⌫
-  - {t: ↵, h: '1'}
-  - DEL
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - to 0
 combos:
 - p: [5, 17]
   k: ''''
