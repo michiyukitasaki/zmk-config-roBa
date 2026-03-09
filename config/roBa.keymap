@@ -293,12 +293,21 @@
         layer_7 {
             bindings = <
 &kp Q                       &kp L             &kp U            &kp MINUS               &kp DOT                                                        &kp F        &kp W  &kp R     &kp Y     &kp P
-&kp E                       &kp I             &kp A            &kp O                   &kp COMMA         &mkp MB3                &kp DELETE     &kp K        &kp T  &kp N     &lt 5 S   &kp H
+&kp E                       &kp I             &kp A            &kp O                   &kp COMMA         &mkp MB3                &kp DELETE     &kp K        &kp T  &kp N     &lt 8 S   &kp H
 &kp LSHIFT                  &kp Z             &kp X            &kp C                   &kp V             &kp AT_SIGN             &lt 4 PLUS     &kp G        &kp D  &kp M     &kp J     &kp B
 &mt LC(LEFT_COMMAND) COMMA  &mt LEFT_ALT ESC  &mt LCTRL LANG2  &mt LEFT_COMMAND LANG1  &lt_hold 1 SPACE  &mt LEFT_SHIFT TAB      &lt 2 ENTER  &kp BACKSPACE                             &to 0
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
+        };
+
+        layer_8 {
+            bindings = <
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DLLR          &kp PERCENT                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp MINUS  &kp PLUS
+&kp UNDERSCORE   &kp SLASH          &kp AT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans      &kp QUESTION  &trans                &trans                 &trans     &trans     &trans
+&kp PERIOD       &kp COMMA          &kp COLON  &kp SEMICOLON     &trans             &trans      &trans        &trans                &trans                 &trans     &trans     &trans
+&trans           &trans             &trans     &trans            &kp LANG2          &kp LANG1   &trans        &trans                                                             &trans
+            >;
         };
     };
 };

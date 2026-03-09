@@ -329,7 +329,7 @@ layers:
   - K
   - T
   - N
-  - {t: S, h: '5'}
+  - {t: S, h: '8'}
   - H
   - ⇧
   - Z
@@ -352,6 +352,51 @@ layers:
   - {t: ↵, h: '2'}
   - ⌫
   - {t: default, h: toggle}
+  '8':
+  - '!'
+  - '"'
+  - '#'
+  - $
+  - '%'
+  - (
+  - )
+  - '='
+  - '-'
+  - +
+  - _
+  - /
+  - '@'
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - .
+  - ','
+  - ':'
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LANG2
+  - LANG1
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [5, 17]
   k: ''''
