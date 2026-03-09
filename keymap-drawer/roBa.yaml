@@ -41,8 +41,8 @@ layers:
   - {t: LANG1, h: ⌘}
   - {t: ␣, h: '1'}
   - {t: ⇥, h: ⇧}
-  - ⌫
   - {t: ↵, h: '2'}
+  - ⌫
   - {t: '7', h: toggle}
   '1':
   - {t: ▽, type: trans}
@@ -259,8 +259,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANG2
+  - LANG1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -329,7 +329,7 @@ layers:
   - K
   - T
   - N
-  - S
+  - {t: S, h: '5'}
   - H
   - ⇧
   - Z
@@ -349,7 +349,6 @@ layers:
   - {t: LANG1, h: ⌘}
   - {t: ␣, h: '1'}
   - {t: ⇥, h: ⇧}
-  - ⌫
   - {t: ↵, h: '2'}
   - {t: default, h: toggle}
 combos:
