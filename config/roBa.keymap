@@ -292,10 +292,10 @@
 
         layer_7 {
             bindings = <
-&kp Q       &kp L  &kp U  &kp MINUS  &kp DOT                                     &kp F  &kp W  &kp R  &kp Y  &kp P
-&kp E       &kp I  &kp A  &kp O      &kp COMMA  &trans      &trans  &kp K  &kp T  &kp N  &kp S  &kp H
-&kp LSHIFT  &kp Z  &kp X  &kp C      &kp V      &trans      &trans  &kp G  &kp D  &kp M  &kp J  &kp B
-&trans      &trans &trans &trans     &trans     &trans              &trans  &trans  &to 0
+&kp Q                       &kp L             &kp U            &kp MINUS               &kp DOT                                                        &kp F        &kp W  &kp R     &kp Y     &kp P
+&kp E                       &kp I             &kp A            &kp O                   &kp COMMA         &mkp MB3                &kp DELETE     &kp K        &kp T  &kp N     &kp S     &kp H
+&kp LSHIFT                  &kp Z             &kp X            &kp C                   &kp V             &kp AT_SIGN             &lt 4 PLUS     &kp G        &kp D  &kp M     &kp J     &kp B
+&mt LC(LEFT_COMMAND) COMMA  &mt LEFT_ALT ESC  &mt LCTRL LANG2  &mt LEFT_COMMAND LANG1  &lt_hold 1 SPACE  &mt LEFT_SHIFT TAB      &kp BACKSPACE  &lt 2 ENTER                             &to 0
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;

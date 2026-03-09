@@ -324,8 +324,8 @@ layers:
   - A
   - O
   - ','
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - ⌦
   - K
   - T
   - N
@@ -336,22 +336,22 @@ layers:
   - X
   - C
   - V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '@'
+  - {t: +, h: '4'}
   - G
   - D
   - M
   - J
   - B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: ',', h: ^⌘}
+  - {t: ⎋, h: ⌥}
+  - {t: LANG2, h: ^}
+  - {t: LANG1, h: ⌘}
+  - {t: ␣, h: '1'}
+  - {t: ⇥, h: ⇧}
+  - ⌫
+  - {t: ↵, h: '2'}
+  - to 0
 combos:
 - p: [5, 17]
   k: ''''
