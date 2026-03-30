@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: ^}
+  - A
   - S
   - D
   - F
@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - '@'
-  - {t: +, h: '4'}
+  - {t: '@', h: '4'}
+  - {t: +, h: '2'}
   - N
   - M
   - {t: ▽, type: trans}
@@ -41,7 +41,7 @@ layers:
   - {t: LANG1, h: ⌘}
   - {t: ␣, h: '1'}
   - {t: ⇥, h: ⇧}
-  - {t: ↵, h: '2'}
+  - ↵
   - ⌫
   - {t: '7', h: toggle}
   '1':
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - ⌥⌘L
   - ⌘[
   - ^↓
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⇤
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
@@ -204,8 +204,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
   - BT CLR ALL
@@ -238,9 +238,9 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&arrow'
+  - '&paren'
+  - '&kakko'
   - {type: held}
   - {t: ▽, type: trans}
   - .
@@ -625,3 +625,7 @@ combos:
   k: '&'
 - p: [10, 22]
   k: '*'
+- p: [38, 39]
+  k: LANG1
+- p: [40, 41]
+  k: LANG2
