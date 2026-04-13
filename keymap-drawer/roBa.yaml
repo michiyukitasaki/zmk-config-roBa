@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: ⇧}
   - S
   - D
   - F
@@ -23,7 +23,7 @@ layers:
   - K
   - {t: L, h: '5'}
   - {t: '-', h: '3'}
-  - Z
+  - {t: Z, h: ^}
   - X
   - C
   - V
@@ -50,10 +50,10 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -62,8 +62,8 @@ layers:
   - {t: ▽, type: trans}
   - ⌘0
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ←
+  - ↓
   - ↑
   - →
   - {t: ▽, type: trans}
@@ -74,9 +74,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -402,10 +402,10 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -414,8 +414,8 @@ layers:
   - {t: ▽, type: trans}
   - ⌘0
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ←
+  - ↓
   - ↑
   - →
   - {t: ▽, type: trans}
@@ -426,9 +426,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
